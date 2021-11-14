@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 20px;
+    position: relative;
 }
 
 .container_header {
@@ -13,7 +14,7 @@ body {
     background-blend-mode: luminosity;
     background-size: cover;
     background-position: center;
-    position: sticky;
+    position: relative;
 }
 
 .item {
@@ -41,8 +42,8 @@ a:hover {
 }
 
 #pic {
-    height: 38vh;
-    width: 38vh;
+    height: 97%;
+    width: 70%;
     border-radius: 50%;
     border: 3px solid blue;
 }
